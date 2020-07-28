@@ -1,4 +1,4 @@
-*.Logo {
+.Logo {
   max-width: 168px;
 }
 @media (max-width: 800px) {
@@ -23,8 +23,8 @@
   padding-left: 5%;
   padding-right: 5%;
 
-  background: Black;
-  border-bottom: 2px solid rgb(248, 146, 223);
+  background: var(--black);
+  border-bottom: 2px solid var(--primary);
 }
 body {
   --bodyPaddingTop: 94px;
@@ -41,9 +41,9 @@ body {
   }
 }
 
-.Button {
-  color: black;
-  border: 1px solid white;
+.ButtonLink {
+  color: var(--white);
+  border: 1px solid var(--white);
   box-sizing: border-box;
   cursor: pointer;
   padding: 16px 24px;
@@ -67,7 +67,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background:white;
+    background: var(--primary);
     border-radius: 0;
     border: 0;
     text-align: center;

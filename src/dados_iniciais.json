@@ -1,17 +1,17 @@
 {
   "categorias": [
     {
-      "titulo": "1 year",
+      "titulo": "Frondend",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Primeiros dias!",
+        "text": "Cursos de Front End na Alura",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [
         {
-          "titulo": "Rebecca",
-          "url": "https://www.youtube.com/watch?v=jW0bS_z1AW0&feature=youtu.be"
+          "titulo": "Aprenda linguagem de programação GO PT-BR!",
+          "url": "https://www.youtube.com/embed/WiGU_ZB-u0w"
         },
         {
           "titulo": "SEO com React",

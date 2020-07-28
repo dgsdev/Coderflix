@@ -14,7 +14,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Futura playlist dos melhores videos dos primeiros anos da minha filha!"}
+        videoDescription={"Go é um ambiente de programação de código aberto que faz com que seja fácil de construir software simples, confiável e eficiente."}
       />
 
       <Carousel

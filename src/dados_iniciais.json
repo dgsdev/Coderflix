@@ -1,11 +1,11 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "1 year",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
+        "text": "Primeiros dias!",
         "url": "https://www.alura.com.br/cursos-online-front-end"
       },
       "videos": [

@@ -14,7 +14,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Go é um ambiente de programação de código aberto que faz com que seja fácil de construir software simples, confiável e eficiente."}
+        videoDescription={"Playlist de cursos e conteúdos gratuitos de tecnologia para aprender programação!"}
       />
 
       <Carousel

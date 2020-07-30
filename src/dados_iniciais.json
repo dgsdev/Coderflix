@@ -1,45 +1,51 @@
 {
   "categorias": [
     {
-      "titulo": "Frondend",
+      "titulo": "Front End",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "link_extra": {
-        "text": "Cursos de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Curso Introdução Ciência da computação, HTML5, CSS3, Javascript e muita mais!",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Aprenda linguagem de programação GO PT-BR!",
-          "url": "https://www.youtube.com/embed/WiGU_ZB-u0w"
+          "titulo": "Como os computadores funcionam: o que torna um computador, um computador?",
+                    
+          "url": "https://youtu.be/mCq8-xTH7jA"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "CS50 Harvard 2019 Introdução Ciência da Computação",
+          "url": "https://www.youtube.com/watch?v=e9Eds2Rc_x8&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=2628s"
+        },      
+             
+        {
+          "titulo": "Curso HTML5 - História da Internet",
+          "url": "https://www.youtube.com/watch?v=rsFCVjr5yxc&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=2"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Curso CSS 2018 - (Espanhol)",
+          "url": "https://www.youtube.com/watch?v=d94wLkOpBoE&list=PLROIqh_5RZeAoysDfEpB_asxV0cItZOL_&index=1"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Curso de JavaScript Moderno",
+          "url": "https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&t=0s"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Curso de Algoritmos",
+          "url": "https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
         },
         {
           "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
           "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Guia Hardcore de Introdução à COMPUTAÇÃO",
+          "url": "https://www.youtube.com/watch?v=8G80nuEyDN4&t=44s"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "A História do Front-End para Iniciantes em Programação",
+          "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&index=5"
         }        
       ]
     },
@@ -47,21 +53,25 @@
       "titulo": "Back End",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Cursos e contéudos sobre Back End!",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "CURSO DE DOCKER COMPLETO ",
+          "url": "https://www.youtube.com/watch?v=0xxHiOSJVe8&list=PLf-O3X2-mxDkiUH0r_BadgtELJ_qyrFJ_"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "O que é Node.JS",
+          "url": "https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Entendendo Back-End para Iniciantes em Programação ",
+          "url": "https://www.youtube.com/watch?v=Qjk-cSW-jk4&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&index=6"
+        },
+        {
+          "titulo": "Curso Git e GitHub!",
+          "url": "https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA"
         },
         {
           "titulo": "API: Dicionário do Programador",
@@ -70,6 +80,18 @@
         {
           "titulo": "Usando Git Direito",
           "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        },
+        {
+          "titulo": "Aprenda linguagem de programação GO PT-BR!",
+          "url": "https://www.youtube.com/watch?v=WiGU_ZB-u0w&feature=emb_logo"
+        },
+        {
+          "titulo": "Curso Linguagem Java",
+          "url": "https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR"
+        }, 
+        {
+          "titulo": "Curso Java Programação orientado a objetos",
+          "url": "https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY"
         }
       ]
     },
@@ -77,25 +99,29 @@
       "titulo": "Data Science e Inteligência Artificial",
       "cor": "#9cd33b",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Contéudo Data Science e IA! ",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Curso Linguagem Python",
+          "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
         },
         {
           "titulo": "O que é Data Science?",
           "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Podcast Cientista de Dados, Por Onde Começar?",
+          "url": "https://www.youtube.com/watch?v=NmCuEgkVLWo&t=1506s"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Inteligência Artificial - IBM",
+          "url": "https://www.youtube.com/watch?v=W95YlM5-iPk"
+        },
+        {
+          "titulo": "APRENDIZADO DE MÁQUINA: Aula 1.1 Introdução",
+          "url": "https://www.youtube.com/watch?v=QEQGO0bLr4s&list=PLUVGfISIc40YVf2LLVWvoBvU4HUQh_QMr&index=1"
         }
       ]
     },
@@ -104,20 +130,28 @@
       "cor": "orange",
       "videos": [
         {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+          "titulo": "O Jogo da Imitação",
+          "url": "https://www.youtube.com/watch?v=YIkKbMcJL_4"
         },
         {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+          "titulo": "Os Estagiários",
+          "url": "https://www.youtube.com/watch?v=QxC5Pl7Ch1I"
         },
         {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+          "titulo": "Steve Jobs - Official Trailer",
+          "url": "https://www.youtube.com/watch?v=aEr6K1bwIVs"
         },
         {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+          "titulo": "Jobs Official Trailer",
+          "url": "https://www.youtube.com/watch?v=FrvkCS0ZGPU"
+        },
+        {
+          "titulo": "A Rede Social",
+          "url": "https://www.youtube.com/watch?v=kAwIKMYN6UU"
+        },
+        {
+          "titulo": "O quinto Poder",
+          "url": "https://www.youtube.com/watch?v=8UR0iBJrsU0"
         }
       ]
     },
@@ -125,29 +159,33 @@
       "titulo": "Games",
       "cor": "red",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Jogos populares e Programe seus próprios jogos!",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "Programamos um GAME com JavaScript Puro em 28 minutos",
+          "url": "https://www.youtube.com/watch?v=M258B1b_pMs"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "Como foi programar meu Primeiro Jogo Multiplayer",
+          "url": "https://www.youtube.com/watch?v=0sTfIZvjYJk&list=PLMdYygf53DP5SVQQrkKCVWDS0TwYLVitL"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "THE LAST OF US 2 Trailer 4K",
+          "url": "https://www.youtube.com/watch?v=b8ErQqpq8XY"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "SPIDER MAN 2 MILES MORALES Trailer Brasileiro 4K",
+          "url": "https://www.youtube.com/watch?v=VoPt5wSazHE"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "Marvel's Avengers - Hawkeye Reveal Trailer",
+          "url": "https://www.youtube.com/watch?v=HcZSWh6_34k"
+        },
+        {
+          "titulo": "5 BEST GAME TRAILERS 2020",
+          "url": "https://www.youtube.com/watch?v=Ww2s0Pfto70"
         }
       ]
     },
@@ -155,29 +193,29 @@
       "titulo": "Aprendendo a aprender tecnologia",
       "cor": "#6b5be2",
       "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+        "text": "Aprenda a aprender, um passo por vez e você chega no objetivo!",
+        "url": ""
       },
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "A Dor de Aprender | Que Cursos/Livros?",
+          "url": "https://www.youtube.com/watch?v=HEaIsKm-pao&list=PLdsnXVqbHDUck2oHncXftVmut6_agAGRC"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "Não Terceirize suas Decisões! | A Lição MAIS Importante da sua Vida",
+          "url": "https://www.youtube.com/watch?v=D3L8IOncLkg&list=PLdsnXVqbHDUck2oHncXftVmut6_agAGRC&index=3"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Como eu aprendi Inglês? E entendendo",
+          "url": "https://www.youtube.com/watch?v=OkboNGQ9LU0&list=PLdsnXVqbHDUck2oHncXftVmut6_agAGRC&index=12"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "Começando na Carreira de TI",
+          "url": "https://www.youtube.com/watch?v=H84WD_xyj10&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&index=15"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Você é um colecionador de cursos? Precisamos conversar",
+          "url": "https://www.youtube.com/watch?v=mUqo8a1FDSM&list=PLHz_AreHm4dk_kkE0WS7010x8_AsU7twX"
         }
       ]
     }

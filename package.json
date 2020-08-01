@@ -20,11 +20,11 @@
   "scripts": {
     "server": "node ./server.js",
     "start": "npm run server",
-    "dev": "concurrently \"react-scripts start\" \"node ./server.js\"",
+    "dev": "concurrently \"react-scripts start\" \"npm run server\"",
     "test": "react-scripts test",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "server": "server --watch ./src/dados_iniciais.json --port 8080"
+    "server:static": "server --watch ./db.json --port 8080"
 
   },
   "eslintConfig": {

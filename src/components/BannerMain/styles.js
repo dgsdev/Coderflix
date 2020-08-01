@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const ContentAreaContainer = styled.section`
   margin-left: 5%;
   margin-right: 5%;
-  height: 125%;
+  height: 110%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +56,7 @@ ContentAreaContainer.Title = styled.h2`
   font-weight: 300;
   font-size: 40px;
   line-height: 1;
-  margin-top: 0;
+  margin-top: 1;
   margin-bottom: 32px;
 
   @media (max-width: 800px) {
@@ -66,7 +66,7 @@ ContentAreaContainer.Title = styled.h2`
 `;
 
 export const BannerMainContainer = styled.section`
-  height: 80vh;
+  height: 90vh;
   position: relative;
   color: #fff;
   background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 

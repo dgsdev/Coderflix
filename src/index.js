@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 
+
 const Pagina404 = () => (
   <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
     <h1>Ops... Quebrou tudo! :O</h1>

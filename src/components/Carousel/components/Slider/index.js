@@ -15,7 +15,7 @@ const Container = styled.ul`
     height: 30px;
     transform: initial;
     &:before {
-      font-size: 30px;
+      font-size: 35px;
     }
   }
   

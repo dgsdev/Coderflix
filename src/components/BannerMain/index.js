@@ -1,6 +1,9 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
-import VideoIframeResponsive from './components/VideoIframeResponsive';
+import VideoIframeResponsive from './components/Video';
 import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
+
+
 
 function getYouTubeId(youtubeURL) {
   return youtubeURL

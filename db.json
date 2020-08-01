@@ -16,6 +16,7 @@
         "titulo": "Back End",
         "cor": "#6BD1FF",
         "link_extra": {
+    "react-slick": "^0.27.1",
           "text": "Formação de Back End na Alura",
           "url": ""
         }

@@ -30,7 +30,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
-      const URL_TOP = 'http://localhost:8080/categorias?_embed=video';
+      const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://coderflixx.herokuapp.com/categorias';
       fetch(URL_TOP)
         .then(async (respostaDoServer) => {
           if (respostaDoServer.ok) {

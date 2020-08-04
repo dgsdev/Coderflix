@@ -14,7 +14,7 @@ export const VideoCardContainer = styled.a`
   background-image: ${({ url }) => `url(${url})`};
   background-size: cover;
   background-position: center;
-  border-radius: 30px;
+  border-radius: 20px;
   position: relative;
   display: flex;
   align-items: flex-end;

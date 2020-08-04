@@ -1,223 +1,307 @@
 {
-    "categorias": [
+  "categorias": [
       {
+        "id": 1,
         "titulo": "Front End",
         "link": "https://www.alura.com.br/formacao-front-end",
         "cor": "#6BD1FF",
         "link_extra": {
-          "text": "Curso Introdução Ciência da computação, HTML5, CSS3, Javascript e muita mais!",
-          "url": ""
+         "text": "Curso Introdução Ciência da computação, HTML5, CSS3, Javascript e muita mais!"
+        }  
         },
+        {
+        "id": 2, 
+        "titulo": "Back End",
+        "cor": "#00C86F",
+        "link_extra": {
+        "text": "Cursos e contéudos sobre Back End!",
+        "url": ""
+        }
+        },
+        {
+        "id": 3,
+        "titulo": "Data Science e Inteligência Artificial",
+        "cor": "#9cd33b",
+        "link_extra": {
+        "text": "Contéudo Data Science e IA! ",
+        "url": ""
+        }
+        },
+        {
+        "id": 4,
+        "titulo": "Filmes",
+        "cor": "orange",
+        "link_extra": {
+        "text": "Filmes de tecnologia!",
+        "url": ""
+        }
+        },      
+        {
+        "id": 5,
+        "titulo": "Games",
+        "cor": "red",
+        "link_extra": {
+        "text": "Games populares!",
+        "url": ""            
+        }
+        },
+        {
+        "id": 6,
+        "titulo": "Aprendendo a aprender tecnologia",
+        "cor": "#6b5be2",
+        "link_extra": {
+        "text": "Aprenda a aprender, um passo por vez e você chega no objetivo!",
+        "url": ""
+        }
+      }
+    ],
+        
+      
+
         "videos": [
           {
+            "id": 1,
+            "categoriaId": 1,
             "titulo": "Como os computadores funcionam: o que torna um computador, um computador?",
                       
             "url": "https://youtu.be/mCq8-xTH7jA"
           },
           {
+            "id": 2,
+            "categoriaId": 1,
             "titulo": "CS50 Harvard 2019 Introdução Ciência da Computação",
             "url": "https://www.youtube.com/watch?v=e9Eds2Rc_x8&list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW&t=2628s"
           },      
                
           {
+            "id": 3,
+            "categoriaId": 1,
             "titulo": "Curso HTML5 - História da Internet",
             "url": "https://www.youtube.com/watch?v=rsFCVjr5yxc&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=2"
           },
           {
+            "id": 4,
+            "categoriaId": 1,
             "titulo": "Curso CSS 2018 - (Espanhol)",
             "url": "https://www.youtube.com/watch?v=d94wLkOpBoE&list=PLROIqh_5RZeAoysDfEpB_asxV0cItZOL_&index=1"
           },
           {
+            "id": 5,
+            "categoriaId": 1,
             "titulo": "Curso de JavaScript Moderno",
             "url": "https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&t=0s"
           },
           {
+            "id": 6,
+            "categoriaId": 1,
             "titulo": "Curso de Algoritmos",
             "url": "https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV"
           },
           {
+            "id": 7,
+            "categoriaId": 1,
             "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
             "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
           },
           {
+            "id": 8,
+            "categoriaId": 1,
             "titulo": "Guia Hardcore de Introdução à COMPUTAÇÃO",
             "url": "https://www.youtube.com/watch?v=8G80nuEyDN4&t=44s"
           },
           {
+            "id": 9,
+            "categoriaId": 1,
             "titulo": "A História do Front-End para Iniciantes em Programação",
             "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&index=5"
-          }        
-        ]
-      },
-      {
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos e contéudos sobre Back End!",
-          "url": ""
-        },
-        "videos": [
+          },        
           {
+            "id": 10,
+            "categoriaId": 2,
             "titulo": "CURSO DE DOCKER COMPLETO ",
             "url": "https://www.youtube.com/watch?v=0xxHiOSJVe8&list=PLf-O3X2-mxDkiUH0r_BadgtELJ_qyrFJ_"
           },
           {
+            "id": 11,
+            "categoriaId": 2,
             "titulo": "O que é Node.JS",
             "url": "https://www.youtube.com/watch?v=LLqq6FemMNQ&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B"
           },
           {
+            "id": 12,
+            "categoriaId": 2,
             "titulo": "Entendendo Back-End para Iniciantes em Programação ",
             "url": "https://www.youtube.com/watch?v=Qjk-cSW-jk4&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&index=6"
           },
           {
+            "id": 13,
+            "categoriaId": 2,
             "titulo": "Curso Git e GitHub!",
             "url": "https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA"
           },
           {
+            "id": 14,
+            "categoriaId": 2,
             "titulo": "API: Dicionário do Programador",
             "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
           }, 
           {
+            "id": 15,
+            "categoriaId": 2,
             "titulo": "Usando Git Direito",
             "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
           },
           {
+            "id": 16,
+            "categoriaId": 2,
             "titulo": "Aprenda linguagem de programação GO PT-BR!",
             "url": "https://www.youtube.com/watch?v=WiGU_ZB-u0w&feature=emb_logo"
           },
           {
+            "id": 17,
+            "categoriaId": 2,
             "titulo": "Curso Linguagem Java",
             "url": "https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR"
           }, 
           {
+            "id": 18,
+            "categoriaId": 2,
             "titulo": "Curso Java Programação orientado a objetos",
             "url": "https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY"
-          }
-        ]
-      },
-      {
-        "titulo": "Data Science e Inteligência Artificial",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Contéudo Data Science e IA! ",
-          "url": ""
-        },
-        "videos": [
+          },
           {
+            "id": 19,
+            "categoriaId": 3,
             "titulo": "Curso Linguagem Python",
             "url": "https://www.youtube.com/watch?v=S9uPNppGsGo"
           },
           {
+            "id": 20,
+            "categoriaId": 3,
             "titulo": "O que é Data Science?",
             "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
           },
           {
+            "id": 21,
+            "categoriaId": 3,
             "titulo": "Podcast Cientista de Dados, Por Onde Começar?",
             "url": "https://www.youtube.com/watch?v=NmCuEgkVLWo&t=1506s"
           },
           {
+            "id": 22,
+            "categoriaId": 3,
             "titulo": "Inteligência Artificial - IBM",
             "url": "https://www.youtube.com/watch?v=W95YlM5-iPk"
           },
           {
+            "id": 23,
+            "categoriaId": 3,
             "titulo": "APRENDIZADO DE MÁQUINA: Aula 1.1 Introdução",
             "url": "https://www.youtube.com/watch?v=QEQGO0bLr4s&list=PLUVGfISIc40YVf2LLVWvoBvU4HUQh_QMr&index=1"
-          }
-        ]
-      },
-      {
-        "titulo": "Filmes",
-        "cor": "orange",
-        "videos": [
+          },
           {
+            "id": 24,
+            "categoriaId": 4,
             "titulo": "O Jogo da Imitação",
             "url": "https://www.youtube.com/watch?v=YIkKbMcJL_4"
           },
           {
+            "id": 25,
+            "categoriaId": 4,
             "titulo": "Os Estagiários",
             "url": "https://www.youtube.com/watch?v=QxC5Pl7Ch1I"
           },
           {
+            "id": 26,
+            "categoriaId": 4,
             "titulo": "Steve Jobs - Official Trailer",
             "url": "https://www.youtube.com/watch?v=aEr6K1bwIVs"
           },
           {
+            "id": 27,
+            "categoriaId": 4,
             "titulo": "Jobs Official Trailer",
             "url": "https://www.youtube.com/watch?v=FrvkCS0ZGPU"
           },
           {
+            "id": 28,
+            "categoriaId": 4,
             "titulo": "A Rede Social",
             "url": "https://www.youtube.com/watch?v=kAwIKMYN6UU"
           },
           {
+            "id": 29,
+            "categoriaId": 4,
             "titulo": "O quinto Poder",
             "url": "https://www.youtube.com/watch?v=8UR0iBJrsU0"
-          }
-        ]
-      },
-      {
-        "titulo": "Games",
-        "cor": "red",
-        "link_extra": {
-          "text": "Jogos populares e Programe seus próprios jogos!",
-          "url": ""
-        },
-        "videos": [
+          },
           {
+            "id": 30,
+            "categoriaId": 5,
             "titulo": "Programamos um GAME com JavaScript Puro em 28 minutos",
             "url": "https://www.youtube.com/watch?v=M258B1b_pMs"
           },
           {
+            "id": 31,
+            "categoriaId": 5,
             "titulo": "Como foi programar meu Primeiro Jogo Multiplayer",
             "url": "https://www.youtube.com/watch?v=0sTfIZvjYJk&list=PLMdYygf53DP5SVQQrkKCVWDS0TwYLVitL"
           },
           {
+            "id": 32,
+            "categoriaId": 5,
             "titulo": "THE LAST OF US 2 Trailer 4K",
             "url": "https://www.youtube.com/watch?v=b8ErQqpq8XY"
           },
           {
+            "id": 33,
+            "categoriaId": 5,
             "titulo": "SPIDER MAN 2 MILES MORALES Trailer Brasileiro 4K",
             "url": "https://www.youtube.com/watch?v=VoPt5wSazHE"
           },
           {
+            "id": 34,
+            "categoriaId": 5,
             "titulo": "Marvel's Avengers - Hawkeye Reveal Trailer",
             "url": "https://www.youtube.com/watch?v=HcZSWh6_34k"
           },
           {
+            "id": 35,
+            "categoriaId": 5,
             "titulo": "5 BEST GAME TRAILERS 2020",
             "url": "https://www.youtube.com/watch?v=Ww2s0Pfto70"
-          }
-        ]
-      },
-      {
-        "titulo": "Aprendendo a aprender tecnologia",
-        "cor": "#6b5be2",
-        "link_extra": {
-          "text": "Aprenda a aprender, um passo por vez e você chega no objetivo!",
-          "url": ""
-        },
-        "videos": [
+          },
           {
+            "id": 36,
+            "categoriaId": 6,
             "titulo": "A Dor de Aprender | Que Cursos/Livros?",
             "url": "https://www.youtube.com/watch?v=HEaIsKm-pao&list=PLdsnXVqbHDUck2oHncXftVmut6_agAGRC"
           },
           {
+            "id": 37,
+            "categoriaId": 6,
             "titulo": "Não Terceirize suas Decisões! | A Lição MAIS Importante da sua Vida",
             "url": "https://www.youtube.com/watch?v=D3L8IOncLkg&list=PLdsnXVqbHDUck2oHncXftVmut6_agAGRC&index=3"
           },
           {
+            "id": 38,
+            "categoriaId": 6,
             "titulo": "Como eu aprendi Inglês? E entendendo",
             "url": "https://www.youtube.com/watch?v=OkboNGQ9LU0&list=PLdsnXVqbHDUck2oHncXftVmut6_agAGRC&index=12"
           },
           {
+            "id": 39,
+            "categoriaId": 6,
             "titulo": "Começando na Carreira de TI",
             "url": "https://www.youtube.com/watch?v=H84WD_xyj10&list=PLdsnXVqbHDUc7htGFobbZoNen3r_wm3ki&index=15"
           },
           {
+            "id": 40,
+            "categoriaId": 6,
             "titulo": "Você é um colecionador de cursos? Precisamos conversar",
             "url": "https://www.youtube.com/watch?v=mUqo8a1FDSM&list=PLHz_AreHm4dk_kkE0WS7010x8_AsU7twX"
-          }
-        ]
-      }
-    ]
-  }
+    }
+  ]
+}
+
+    

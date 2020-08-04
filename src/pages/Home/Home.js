@@ -1,51 +1,69 @@
-import React from 'react';
-import Menu from '../../components/Menu';
-import dadosIniciais from './dados_iniciais.json';
+import React, { useEffect, useState }  from 'react';
+
 import BannerMain from '../../components/BannerMain';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
+
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
 
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+
+useEffect(() => {
+  categoriasRepository.getAllWithVideos()
+    .then((categoriasComVideos) => {
+      console.log(categoriasComVideos[0].videos[0]);
+      setDadosIniciais(categoriasComVideos);
+    })
+    .catch((err) => {
+      console.log(err.message);
+    });
+}, []);
+
+ 
   return (
-    <div style={{ background: "#141414" }}>
-      <Menu />
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Playlist de cursos e conteúdos gratuitos de tecnologia para aprender programação!"}
-      />
-
-      <Carousel
+    <PageDefault paddingAll={0}>
+     {dadosIniciais.length === 0 && (
+        <div>
+      </div>
+      )}
+     
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice  === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+              videoTitle={dadosIniciais[0].videos[0].titulo}
+              url={dadosIniciais[0].videos[0].url}
+              videoDescription={"Playlist de cursos e conteúdos gratuitos de tecnologia para aprender programação!"} 
+              />
+              
+        <Carousel
         ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
+        category={dadosIniciais[0]}
       />
+      </div>
+  
+      );
+    }
 
+    return (
       <Carousel
-        category={dadosIniciais.categorias[1]}
+        key={categoria.id}
+        category={categoria}
       />
+    );
+      })}
 
-      <Carousel
-        category={dadosIniciais.categorias[2]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[3]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />      
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />      
-
-      <Footer />
-    </div>
+      
+ 
+      </PageDefault>
   );
-}
+
+    }
+
 
 export default Home;
 

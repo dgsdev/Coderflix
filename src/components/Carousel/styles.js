@@ -34,6 +34,8 @@ export const ExtraLink = styled.a`
 `;
 
 export const VideoCardList = styled.ul`
+  display: flex;
+  list-style: none;
   margin: 0;
   padding-left: 0;
   padding-bottom: 32px;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
-import FormField from '../../../components/FormField';
+import FormField from '../../../components/FormField/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
 
@@ -64,7 +64,7 @@ function CadastroCategoria() {
 
         <FormField
           label="Descrição:"
-          type="????"
+          type="text"
           name="descricao"
           value={values.descricao}
           onChange={handleChange}

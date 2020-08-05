@@ -27,6 +27,8 @@ useEffect(() => {
     <PageDefault paddingAll={0}>
      {dadosIniciais.length === 0 && (
         <div>
+        
+        loading... 
       </div>
       )}
      

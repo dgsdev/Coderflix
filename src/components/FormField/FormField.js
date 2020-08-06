@@ -1,3 +1,5 @@
+/* eslint-disable react/require-default-props */
+/* eslint-disable react/default-props-match-prop-types */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
@@ -72,6 +74,7 @@ const Input = styled.input`
 function FormField({
   label, type, name, value, onChange, suggestions,
 }) {
+  const FieldId = `id_${name}`;
   const isTypeTextArea = type === 'textarea';
   const tag = isTypeTextArea ? 'textarea' : 'input';
 
@@ -80,15 +83,16 @@ function FormField({
 
   return (
     <FormFieldWrapper>
-      <Label>
+      <Label htmlfor={FieldId}>
         <Input
           as={tag}
+          id={FieldId}
           type={type}
           value={value}
           name={name}
           onChange={onChange}
-          autoComplete={hasSuggestions ?'off' : 'on'}
-          list={`suggestionFor_${FieldId}` undefined}
+          autoComplete={hasSuggestions ? 'off' : 'on'}
+          list={`suggestionFor_${FieldId}`}
         />
         <Label.Text>
           {label}
@@ -96,19 +100,18 @@ function FormField({
         </Label.Text>
         {
           hasSuggestions && (
-            <datalist id={`suggestionFor_${FieldId}`}>
-        {
-          suggestions.map((suggestion) => )
-          <option value={suggestion} key={`suggestionFor_${FieldId}_option${suggestion}`}>
-          {suggestion}
-          </option>
+          <datalist id={`suggestionFor_${FieldId}`}>
+            {
+          suggestions.map((suggestion) => (
+            <option value={suggestion} key={`suggestionFor_${FieldId}_option${suggestion}`}>
+              {suggestion}
+            </option>
           ))
         }
-        </datalist>
+          </datalist>
           )
         }
 
-      
       </Label>
     </FormFieldWrapper>
   );

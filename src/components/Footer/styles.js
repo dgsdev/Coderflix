@@ -10,10 +10,32 @@ export const FooterBase = styled.footer`
   padding-bottom: 100px;
   color: var(--white);
   text-align: center;
-
- 
-  @media (max-width: 800px) {
+  color: #fff;
+  height: 150px;
+  text-align: center;
+  @media (max-width: 500px) {
     margin-bottom: 40x;
     
   }
+
+    img{
+        margin-bottom: 6px;
+        height: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .social{
+        margin-top: 4px;
+        a{
+            margin: 10px;
+            transition: .2s;
+            :hover{
+                opacity: .5;
+            }
+        }
+    }
 `;
+
+ 
+ 

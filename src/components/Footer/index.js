@@ -1,25 +1,22 @@
 import React from 'react';
+import styled from 'styled-components';
+import {
+  FaLinkedinIn, FaInstagram, FaFacebookF, FaGithub,
+} from 'react-icons/fa';
+
+import Logo from '../../Assets/img/Logo.png';
 import { FooterBase } from './styles';
 
-function Footer() {
+export default function Footer() {
   return (
     <FooterBase>
-      <a href="https://github.com/dgsdev">
-        <img src="https://fontmeme.com/permalink/200728/a4db44de5877739d924353b7d384eaa8.png" alt="Logo Beccaflix" />
-      </a>
-      <p>
-        Criado por
-        {' '}
-        <a href="https://github.com/dgsdev">dgsdev</a>
-        {' '}
-        durante a
-        {' '}
-        <a href="https://www.alura.com.br/">
-          Imersão React da Alura
-        </a>
-      </p>
+      <img src={Logo} alt="" />
+      <div className="social">
+        <a href="https://github.com/dgsdev" rel="noopener noreferrer" target="_blank"><FaGithub /></a>
+        <a href="https://www.linkedin.com/in/dgsdouglaspinheiro/" rel="noopener noreferrer" target="_blank"><FaLinkedinIn /></a>
+        <a href="https://www.instagram.com/douglaspramos/" rel="noopener noreferrer" target="_blank"><FaInstagram /></a>
+        <a href="https://www.facebook.com/dgspramos" rel="noopener noreferrer" target="_blank"><FaFacebookF /></a>
+      </div>
     </FooterBase>
   );
 }
-
-export default Footer;

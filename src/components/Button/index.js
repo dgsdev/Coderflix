@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Button = styled.button`
-color: var(--white);
-border: 2px solid #FFD908;
+color: var(--primary);
+border: 2px solid  #0099CC;
 background: var(--black);
 box-sizing: border-box;
 cursor: pointer;
@@ -11,7 +11,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 outline: none;
-border-radius: 20px;
+border-radius: 10px;
 text-decoration: none;
 display: inline-block;
 transition: opacity .5s;

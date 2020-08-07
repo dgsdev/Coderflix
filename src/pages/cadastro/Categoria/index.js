@@ -104,7 +104,7 @@ function CadastroCategoria() {
       <form>
         <Button>
           <Link to="/">
-            Home
+            Principal
           </Link>
         </Button>
       </form>

@@ -2,6 +2,9 @@ import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
+import Component from "react";
+
+
 const Container = styled.ul`
   padding: 0;
   margin: 0;
@@ -49,6 +52,7 @@ const Slider = ({ children }) => (
       adaptiveHeight: true,
     }}
     >
+
       {children}
     </SlickSlider>
   </Container>

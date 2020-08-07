@@ -1,16 +1,17 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  
 }
 
 :root {
   --primary: #FFD908;
-  --black: #000000;
+  --black: #050505;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
   --grayMedium: #e5e5e5; 
   --white: #FFFFFF;
-  --frontEnd: #6BD1FF;
+  --frontEnd: #0099CC;
   --backEnd: #00C86F;
 }
 

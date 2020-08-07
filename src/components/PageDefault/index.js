@@ -4,7 +4,7 @@ import Footer from '../Footer';
 import styled, { css } from 'styled-components';
 
 const Main = styled.main`
-  background-color: var(--black);
+  background-color: #181716;
   color: var(--white);
   flex: 1;
   padding-top: 5px;

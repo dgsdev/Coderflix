@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // eslint-disable-next-line import/prefer-default-export
 export const FooterBase = styled.footer`
   background: var(--black);
-  border-top: 2px solid var(--primary);
+  border-top: 2px solid var(--black);
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 32px;
@@ -11,7 +11,7 @@ export const FooterBase = styled.footer`
   color: var(--white);
   text-align: center;
   color: #fff;
-  height: 150px;
+  height: 120px;
   text-align: center;
   @media (max-width: 500px) {
     margin-bottom: 40x;

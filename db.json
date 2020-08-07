@@ -296,52 +296,6 @@
       "titulo": "Você é um colecionador de cursos? Precisamos conversar",
       "url": "https://www.youtube.com/watch?v=mUqo8a1FDSM&list=PLHz_AreHm4dk_kkE0WS7010x8_AsU7twX"
     },
-    {
-      "url": "https://www.youtube.com/watch?v=epiyExCyb2s",
-      "categoriaId": 1,
-      "id": 41
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=epiyExCyb2s",
-      "categoriaId": 1,
-      "id": 42
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=epiyExCyb2s",
-      "categoriaId": 1,
-      "id": 43
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=epiyExCyb2s",
-      "categoriaId": 1,
-      "id": 44
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=epiyExCyb2s",
-      "categoriaId": 1,
-      "id": 45
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4&feature=youtu.be",
-      "categoriaId": 1,
-      "id": 46
-    },
-    {
-      "url": "https://www.youtube.com/watch?v=epiyExCyb2s",
-      "categoriaId": 1,
-      "id": 47
-    },
-    {
-      "titulo": "teste",
-      "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4&feature=youtu.be",
-      "categoriaId": 1,
-      "id": 48
-    },
-    {
-      "titulo": "juliana",
-      "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4&feature=youtu.be",
-      "categoriaId": 1,
-      "id": 49
-    }
+   
   ]
 }

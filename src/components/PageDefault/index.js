@@ -5,7 +5,7 @@ import styled, { css } from 'styled-components';
 
 const Main = styled.main`
   background-color: #181716;
-  color: var(--white);
+  color: var(--frontEnd);
   flex: 1;
   padding-top: 5px;
   padding-left: 5%;

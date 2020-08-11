@@ -11,7 +11,7 @@ export const FooterBase = styled.footer`
   color: var(--white);
   text-align: center;
   color: #fff;
-  height: 120px;
+  height: 150px;
   text-align: center;
   @media (max-width: 500px) {
     margin-bottom: 40x;

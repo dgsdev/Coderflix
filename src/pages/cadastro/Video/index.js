@@ -30,7 +30,7 @@ function CadastroVideo() {
   return (
     <PageDefault>
       <h1>Cadastro de Video</h1>
-
+  
       <form onSubmit={(event) => {
         event.preventDefault();
 
@@ -86,6 +86,10 @@ function CadastroVideo() {
       <Link to="/cadastro/categoria">
         <Button>Cadastrar Categoria</Button>
       </Link>
+      <p>
+
+
+      </p>
     </PageDefault>
   );
 }
